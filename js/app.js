@@ -53,8 +53,17 @@ document.addEventListener('DOMContentLoaded', function(){
      }
     
     
-          for (var i = 0; i <= buttons.length; i++) {
+          for (var i = 0; i <= buttons.length-1; i++) {
         buttons[i].addEventListener('click', showHide);
           }
+    
+    var menu = document.querySelector('.navbar');
+    
+    window.addEventListener('scroll', function() {
+        menu.style.borderBottom = '1px solid #7f7f7f';
+        console.log (menu);
+    });
+    
+
     
 });

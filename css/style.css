@@ -21,6 +21,7 @@ nav {
   text-decoration: none;
   font-size: 2.5rem;
   text-transform: uppercase;  
+     border-bottom: 1px solid red;  
 }
 
 .brand-container {
@@ -29,6 +30,7 @@ nav {
 
 .navbar-brand:hover {
   color: #ea6c56;
+    border-bottom: 1px solid red;  
 }
 
 .nav-list {
@@ -36,6 +38,8 @@ nav {
   font-size: 1.5rem;
   text-transform: uppercase;  
   font-weight: 600;
+    border-bottom: 1px solid red;  
+
 }
 
 .nav-list a {
@@ -101,6 +105,7 @@ nav {
   text-decoration: none;
   margin-top: 3rem;
   border: none;
+
   box-shadow: .2rem .2rem .2rem #7f7f7f;
 }
 
@@ -157,6 +162,7 @@ nav {
 .main-points button {
   background-color: #fff;
   border: 0;
+        border-bottom:  solid red
   text-transform: uppercase;
   font-weight: 600;
   color: #424343;
