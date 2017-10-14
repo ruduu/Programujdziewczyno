@@ -161,6 +161,9 @@ nav {
   font-weight: 600;
   color: #424343;
 }
+.more {
+  display: none;
+}
 
 .main-points button:hover {
   color: #ea6c56;
