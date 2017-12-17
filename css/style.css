@@ -314,3 +314,9 @@ footer p {
   color: #424343;
   margin-top: 3rem;
 }
+
+.back-to-top {
+    font-size: 12px;
+    color: darkblue;
+    background-color: bisque;
+}

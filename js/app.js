@@ -54,4 +54,15 @@ document.addEventListener('DOMContentLoaded', function() {
     menu.style.borderBottom = '1px solid #7f7f7f';
         
         
-    });
+  
+
+// 4 zadanie
+
+  var backToTopBtn = document.querySelector('.back-to-top');
+
+  backToTopBtn.addEventListener('click', function() {
+    window.scroll( 0, 0 );
+  });
+ });
+    
+
