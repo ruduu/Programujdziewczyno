@@ -45,11 +45,13 @@ document.addEventListener('DOMContentLoaded', function() {
 // 3 zadanie 
         
         
+            window.addEventListener('scroll', function() {
+      console.log('działa przy scrollu');
+    });
         
+    var menu = document.querySelector('.navbar');
         
-        
-        
-        
+    menu.style.borderBottom = '1px solid #7f7f7f';
         
         
     });
